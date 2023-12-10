@@ -16,7 +16,11 @@ class PersonasController extends Controller
        // $nombre='Liseth Poma';
        $datos=Personas::all();
        return view('welcome', compact('datos'));
+<<<<<<< HEAD
         //
+=======
+        
+>>>>>>> c59921791c8de331781c600d88d0b4f1215afe5b
     }
 
     /**
@@ -110,6 +114,9 @@ class PersonasController extends Controller
     // Redirecciona a la página de índice
     return redirect()->route('persona.index');
     }
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> c59921791c8de331781c600d88d0b4f1215afe5b
 }

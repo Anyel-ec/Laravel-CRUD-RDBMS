@@ -1,8 +1,11 @@
 @extends('layout.principal')
 @section('tituloPagina', 'CRUD')
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c59921791c8de331781c600d88d0b4f1215afe5b
 @section('contenido')
 <div class="row">
     <div class="col">
@@ -11,9 +14,12 @@
    <p>
     <a href="{{route('persona.create')}}" class="btn btn-primary">Agregar Nueva Persona</a>
    </p>
+<<<<<<< HEAD
  
        
   
+=======
+>>>>>>> c59921791c8de331781c600d88d0b4f1215afe5b
    <div class="table-responsive">
     <table class="table table-sm">
         <thead>
