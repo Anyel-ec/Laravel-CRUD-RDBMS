@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    Route::get('/', [PersonasController::class, 'index'])->name('persona.index');
+    Route::get('/create', [PersonasController::class, 'create'])->name('persona.create');
+    Route::get('/edit', [PersonasController::class, 'edit'])->name('persona.edit');
+
+    
+    Route::post('/store', [PersonasController::class, 'store'])->name('persona.store');
+    Route::post('/edit/{id}', [PersonasController::class, 'edit'])->name('persona.edit');
+    Route::post('/update/{id}', [PersonasController::class, 'update'])->name('persona.update');
+    Route::delete('/destroy/{id}', [PersonasController::class, 'destroy'])->name('persona.destroy');
 });
