@@ -13,7 +13,7 @@ class PersonasController extends Controller
      */
     public function index()
     {
-       // $nombre='Angel Patiño';
+       // $nombre='Liseth Poma';
        $datos=Personas::all();
        return view('welcome', compact('datos'));
         
@@ -110,6 +110,4 @@ class PersonasController extends Controller
     // Redirecciona a la página de índice
     return redirect()->route('persona.index');
     }
-    
-
 }
