@@ -6,8 +6,18 @@
     <h2>Actualizar registro</h2>
     <form action="{{ route('persona.update', $persona->id) }}" method="post" enctype="multipart/form-data">
         @csrf
+<<<<<<< HEAD
         @method('POST') {{-- Utiliza el método POST --}}
         @method('PUT') {{-- Utiliza el método PUT para la actualización --}}
+=======
+<<<<<<< HEAD
+        @method('POST') {{-- Utiliza el método POST --}}
+        @method('PUT') {{-- Utiliza el método PUT para la actualización --}}
+=======
+        @method('POST') 
+        @method('PUT') 
+>>>>>>> c59921791c8de331781c600d88d0b4f1215afe5b
+>>>>>>> 9ef35377d7b015e35684bc2e99b43f20a50cde51
         <label for="">Nombre: </label>
         <input type="text" name="nombre" class="form-control m-2"
                value="{{ $persona->nombre }}" placeholder="Nombre" required>

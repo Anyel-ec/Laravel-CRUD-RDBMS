@@ -1,5 +1,14 @@
 @extends('layout.principal')
 @section('tituloPagina', 'CRUD')
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> c59921791c8de331781c600d88d0b4f1215afe5b
+>>>>>>> 9ef35377d7b015e35684bc2e99b43f20a50cde51
 @section('contenido')
 <div class="row">
     <div class="col">
@@ -8,6 +17,15 @@
    <p>
     <a href="{{route('persona.create')}}" class="btn btn-primary">Agregar Nueva Persona</a>
    </p>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ 
+       
+  
+=======
+>>>>>>> c59921791c8de331781c600d88d0b4f1215afe5b
+>>>>>>> 9ef35377d7b015e35684bc2e99b43f20a50cde51
    <div class="table-responsive">
     <table class="table table-sm">
         <thead>
@@ -34,6 +52,7 @@
             </form>
         </td>
         <td>
+<<<<<<< HEAD
             {{-- /**
              * Form for deleting a record.
              *
@@ -48,6 +67,12 @@
                 @method('DELETE')
                 <button class="btn btn-danger btn-sm" 
                 onclick="return confirm('¿Estás seguro de que deseas eliminar este registro?')">
+=======
+            <form action="{{ route('persona.destroy', $item->id) }}" method="POST">
+                @csrf
+                @method('DELETE')
+                <button class="btn btn-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar este registro?')">
+>>>>>>> 9ef35377d7b015e35684bc2e99b43f20a50cde51
                     <span class="fas fa-user-times"> </span>
                 </button>
             </form>
