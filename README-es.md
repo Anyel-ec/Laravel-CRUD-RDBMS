@@ -8,13 +8,13 @@
 ## Resultados
 
 Principal
-![Ejemplo de Imagen](/doc/Captura.PNG)
+![Ejemplo de Imagen](/doc/Captura.PNG)  
 Insertar
-![Ejemplo de Imagen](/doc/create.PNG)
+![Ejemplo de Imagen](/doc/create.PNG)  
 Editar
-![Ejemplo de Imagen](/doc/editar.png)
+![Ejemplo de Imagen](/doc/editar.png)  
 Eliminar
-![Ejemplo de Imagen](/doc/eliminar.png)
+![Ejemplo de Imagen](/doc/eliminar.png)  
 
 ## Contenido
 

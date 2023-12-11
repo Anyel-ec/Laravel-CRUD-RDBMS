@@ -8,13 +8,13 @@
 ## Results
 
 Main
-![Ejemplo de Imagen](/doc/Captura.PNG)
+![Ejemplo de Imagen](/doc/Captura.PNG)  
 Insert
-![Ejemplo de Imagen](/doc/create.PNG)
+![Ejemplo de Imagen](/doc/create.PNG)  
 Edit
-![Ejemplo de Imagen](/doc/editar.png)
+![Ejemplo de Imagen](/doc/editar.png)  
 Delete
-![Ejemplo de Imagen](/doc/eliminar.png)
+![Ejemplo de Imagen](/doc/eliminar.png)  
 
 ## Contents
 
