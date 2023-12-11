@@ -16,15 +16,7 @@ class PersonasController extends Controller
        // $nombre='Liseth Poma';
        $datos=Personas::all();
        return view('welcome', compact('datos'));
-<<<<<<< HEAD
-        //
-=======
-<<<<<<< HEAD
-        //
-=======
         
->>>>>>> c59921791c8de331781c600d88d0b4f1215afe5b
->>>>>>> 9ef35377d7b015e35684bc2e99b43f20a50cde51
     }
 
     /**
@@ -42,11 +34,6 @@ class PersonasController extends Controller
      */
     public function store(Request $request)
     {
-<<<<<<< HEAD
-        /**
-         * Create a new Personas instance and assign values from the request.
-         */
-=======
         $request->validate([
             'nombre' => 'required',
             'apellido' => 'required',
@@ -55,7 +42,6 @@ class PersonasController extends Controller
             'fecha_nac' => 'nullable|date',
             'foto' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:8048',
         ]);
->>>>>>> 9ef35377d7b015e35684bc2e99b43f20a50cde51
         $personas = new Personas();
         $personas->nombre = $request->post('nombre');
         $personas->apellido = $request->post('apellido');
@@ -102,10 +88,6 @@ class PersonasController extends Controller
         $personas->telefono = $request->post('telefono');
         $personas->direccion = $request->post('direccion');
         $personas->fecha_nac = $request->post('fecha_nac');
-<<<<<<< HEAD
-        $personas->foto = $request->post('foto');
-=======
->>>>>>> 9ef35377d7b015e35684bc2e99b43f20a50cde51
         $personas ->save();
         return redirect()-> route("persona.index");
     }
@@ -117,20 +99,6 @@ class PersonasController extends Controller
     public function destroy(Personas $personas, $id)
     {
         
-<<<<<<< HEAD
-    /**
-     * Delete a persona by ID.
-     */
-    $persona = Personas::find($id);
-
-    if ($persona) {
-        $persona->delete();
-    }
-    return redirect()->route('persona.index');
-    }
-    
-
-=======
         // Encuentra el modelo por ID
     $persona = Personas::find($id);
 
@@ -142,10 +110,6 @@ class PersonasController extends Controller
     // Redirecciona a la página de índice
     return redirect()->route('persona.index');
     }
-<<<<<<< HEAD
     
 
-=======
->>>>>>> c59921791c8de331781c600d88d0b4f1215afe5b
->>>>>>> 9ef35377d7b015e35684bc2e99b43f20a50cde51
 }
