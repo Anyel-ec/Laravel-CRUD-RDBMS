@@ -7,13 +7,13 @@
 
 ## Resultados
 
-Principal
+# Principal
 ![Ejemplo de Imagen](/doc/Captura.PNG)  
-Insertar
+# Insertar
 ![Ejemplo de Imagen](/doc/create.PNG)  
-Editar
+# Editar 
 ![Ejemplo de Imagen](/doc/editar.png)  
-Eliminar
+# Eliminar
 ![Ejemplo de Imagen](/doc/eliminar.png)  
 
 ## Contenido
